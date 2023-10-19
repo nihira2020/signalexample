@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MasterService } from 'src/app/service/master.service';
 
 @Component({
   selector: 'app-productsummary',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class ProductsummaryComponent {
 
+  constructor(public service:MasterService){
+    
+  }
 }

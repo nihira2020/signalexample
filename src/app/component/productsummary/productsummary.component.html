@@ -1,1 +1,34 @@
-<p>productsummary works!</p>
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-4 offset-lg-8">
+                <table class="table table-bordered">
+                   
+                    <tbody>
+                        <tr>
+                          <td>Total Qty</td>
+                          <td>{{service.totalqty()}}</td>
+                        </tr>
+                        <tr>
+                            <td>Summary Total</td>
+                            <td>{{service.summarytotal()}}</td>
+                          </tr>
+                          <tr>
+                            <td>Summary Tax</td>
+                            <td>{{service.summarytax()}}</td>
+                          </tr>
+                          <tr>
+                            <td>Summary NetTotal</td>
+                            <td>{{service.summarynettotal()}}</td>
+                          </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
